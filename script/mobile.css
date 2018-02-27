@@ -1,0 +1,171 @@
+img{max-width:100%;height:auto;width:auto\9;}
+@media screen and (max-width:1200px){#flyer{width:100%;}.sticky-header-container{width:100%;}}
+@media screen and (max-width:1060px){#centered-wrapper{width:100%;}
+.logo{width:25%;margin-left:2%;}
+.main-nav{width:71%;margin-right:2%;}
+.main-nav a{padding:7px 8px;font-size:11px;}
+#inner-header{width:95%;}
+#left-header{width:60%;background:url(../images/arrow.png) no-repeat 240px 260px;}
+#right-header{width:40%;}
+#left-header-payday{width:50%;}
+#left-header-payday h1{font-size:40px;margin-bottom:15px;line-height:40px;}
+#left-header-auto{width:56%;height:360px;padding:6% 4% 3% 0;font-size:22px;}
+#left-header-auto h1{font-size:54px;color:#fff;margin-bottom:30px;line-height:60px;}
+#left-header-title{width:56%;height:360px;padding:6% 4% 3% 0;font-size:22px;}
+#left-header-title h1{font-size:54px;color:#fff;margin-bottom:30px;line-height:60px;}
+#main-form{width:auto;height:auto;padding:7% 9%;}
+#main-form h1{font-size:30px;}
+#main-form .select{padding:3% 4%;width:100%;}
+#main-form .text{padding:4%;width:92%;}
+#inner-wrapper{width:95%;}
+#wrapper-left{width:60%;padding-right:5%;}
+#wrapper-right{width:35%;margin:0;}
+#rightform{width:auto;padding:10%;}
+#rightform .select{width:100%;padding:2%;}
+#rightform .text{width:95.3%;padding:0 2%;}
+#banner ul{width:97%;}
+#banner ul li.banner-ico{width:19%;padding:1% 0 2% 6%;}
+#infographics ul, #testimonials, .testimonials{width:95%;}
+#flyer-wrapper{overflow:hidden;}
+#flyer{width:100%;}
+#flyer-box{margin:0 0 0 50%;padding:2% 5% 0 0;}
+#banner2 ul{width:100%;}
+#banner2 ul li{width:46%;margin:1% 1.5%;}
+#footerin, #footerbox{width:95%;}
+}
+@media screen and (max-width:850px){.logo{width:60%;margin-left:2%;}
+.main-nav{position:relative;width:10%;}
+.main-nav ul{width:150px;padding:5px 0;margin-top:34px;position:absolute;border:solid 1px #aaa;background:#fff url(../images/icon-menu.png) no-repeat 10px 9px;border-radius:5px;box-shadow:0 1px 2px rgba(0,0,0,.3);left:auto;right:0;}
+.main-nav li{display:none;margin:0;}
+.main-nav .current{display:block;}
+.main-nav a{display:block;padding:5px 5px 5px 32px;text-align:left;font-size:12px;}
+.main-nav .current a{background:none;color:#666;}
+.main-nav ul:hover li{display:block;margin:0 0 5px;}
+.inner-header-payday, .inner-header-auto{background:none;}
+#left-header-payday{padding:200px 20px 0 0;width:50%;}
+#left-header-payday h1{font-size:45px;margin-bottom:30px;line-height:56px;}
+#left-header-auto{width:50%;height:368px;padding:6% 5% 3% 0%;font-size:22px;}
+#left-header-auto h1{font-size:50px;margin-bottom:30px;line-height:50px;}
+#left-header-title{width:50%;height:366px;padding:6% 5% 3% 0%;font-size:22px;}
+#left-header-title h1{font-size:50px;margin-bottom:30px;line-height:50px;}
+#right-header{width:45%;}
+.submit-btn{padding:13px 15px 15px 70px;font-size:18px;}
+#financial-resources{width:750px;margin:40px 0 0 15px;}
+#infographics-new ul{width:90%;}
+}
+@media screen and (max-width:768px){.sticky-header, #top-icons{display:none;}
+#centered-wrapper{width:100%;}
+#left-header{display:none;}
+#left-header-payday, #left-header-auto, #left-header-title{display:none;}
+#right-header{width:90%;padding:7% 5% 3% 5%;}
+#main-form{width:auto;padding:5%;}
+#main-form h1{font-size:40px;}
+#main-form .select, #main-form .text{font-size:24px;}
+#inner-header h1{font-size:40px;}
+#inner-header h2{font-size:20px;}
+#wrapper-left{width:100%;margin:1% 0;padding:0;}
+#wrapper-right{width:100%;margin:1% 0;padding:0;}
+#rightform{width:auto;padding:6%;text-align:center;}
+#rightform .select{width:100%;padding:1%;}
+#rightform .text{width:98%;padding:0 1%;}
+.contact-text{width:99%;}
+#infographics2{width:auto;padding:0;font-size:16px;}
+#infographics2 li{width:auto;}
+#flyer{width:90%;height:auto;}
+.flyer-payday, .flyer-auto, .flyer-title{background:none;}
+#flyer-box{margin:0;padding:5%;}
+#banner ul li.banner-ico{width:17%;font-size:14px;padding:2% 0 2% 7.5%;}
+#side-banner{width:100%;float:left;}
+#side-banner img{width:48%;float:left;margin:2% 1% 0 1%;}
+#infographics ul{width:90%;}
+#infographics ul li{width:44%;font-size:16px;margin:0 3%;min-height:250px;}
+#infographics ul li h3{font-size:24px;}
+#infographics ul li div{margin:0 0 5% 28%;}
+#infographics-new ul li{width:100%;margin:0;}
+.testimonials li span{margin:20% 0 10% 18%;}
+#footer{background:none #e4e4e4;}
+#footerin{width:90%;}
+.footer-but, .footer-txt{width:100%;}
+.footer-but h1{font-size:20px;}
+#footerbox, #footerbox li{width:100%;}
+#footerbox li a{line-height:28px;text-align:center;color:#ccc;background:none #226d95;padding:3px 0;border:1px solid #1c5472;text-decoration:none;text-transform:uppercase;display:block;margin-bottom:1px;}
+#footerbox li a:hover{background:none #2c779f;color:#fff;}
+#flogo{margin-top:20px;width:400px;}
+.facebook-ico a{width:200px;background:url(../images/ui-sprite.png) no-repeat 0 -495px !important;padding:2px 0 2px 40px !important;margin:20px 0 0 0;border:none !important;text-align:left !important;color:#2467a7 !important;}
+#apply-left-1{width:85%;}
+#apply-right-1{display:none;}
+}
+@media screen and (max-width:600px){.customer-notice{display:none;}
+#inner-header{text-align:center;}
+#inner-header h1{font-size:24px;}
+#banner ul{width:92%;}
+#banner ul li.banner-ico{width:40%;font-size:22px;padding:2% 0 5% 10%;background:url(../images/ui-sprite.png) no-repeat -550px -353px;}
+#infographics ul{width:80%;}
+#infographics ul li{float:none;width:100%;margin:0;}
+#infographics ul li div{margin:0 0 5% 36%;}
+#testimonials h1{font-size:20px;}
+.contact-but{margin-bottom:20px;}
+.contact-text{width:98%;}
+}
+@media screen and (max-width:480px){.main-nav ul{width:140px;}
+#inner-header h1{font-size:20px;}
+#inner-header h2{font-size:18px;}
+#main-form{background-color:#fff;}
+#main-form h1{font-size:40px;}
+#banner ul{width:100%;}
+#main-form .terms, #main-form .terms a{color:#ccc;}
+.contact-text{width:97%;}
+#infographics ul li div{margin:0 0 5% 32%;}
+.testimonials li{width:100%;}
+.testimonials li span{margin:10% 0 5% 38%;}
+#infographics2 li h3{font-size:16px;margin:20px 0 5px 0;}
+#banner ul li.banner-ico{width:39%;font-size:18px;padding:2% 0 5% 11%;background:url(../images/ui-sprite.png) no-repeat -545px -8px;}
+#banner2 ul li{float:none;width:98%;margin:0 1%;padding:0;}
+#banner2 ul li img{margin:1% 0;}
+.footer-but h1{font-size:18px;}
+}
+@media screen and (max-width:380px){#top-wrapper{height:130px;}
+.logo{width:83%;margin:5% 0 5% 17%;}
+.main-nav{width:100%;}
+.main-nav ul{width:94%;margin-top:0;left:5%;}
+#inner-header h1{font-size:26px;}
+#inner-header h2{font-size:14px;}
+#main-form h1{font-size:34px;}
+#banner ul li.banner-ico{width:36%;font-size:14px;padding:2.5% 0 5% 14%;}
+#side-banner{width:100%;float:none;}
+#side-banner img{width:100%;float:none;margin:2% 0 0 0;}
+#inner-wrapper{padding:20px 0;}
+.contact-text{width:96%;}
+#infographics ul li div{margin:0 0 5% 28%;}
+#infographics2 li h3{font-size:14px;margin:15px 0 5px 0;}
+.testimonials li span{margin:10% 0 5% 36%;}
+#flogo{margin-top:20px;width:100%;}
+}
+@media screen and (max-width:320px){#top-wrapper{height:120px;}
+.logo{width:90%;margin:5% 0 5% 10%;}
+#main-form h1{font-size:28px;}
+.submit-btn{padding:18px 15px 18px 60px;color:#fff;background:url(../images/ui-sprite.png) no-repeat -538px -226px #2376b0;font-size:18px;}
+#banner ul{width:90%;}
+#banner ul li.banner-ico{width:80%;font-size:24px;padding:2% 0 4% 20%;}
+.contact-text{width:95%;}
+#infographics ul li div{margin:0 0 8% 24%;}
+#infographics2{text-align:center;}
+#infographics2 li div{float:none;margin-left:30%;}
+.testimonials li span{margin:10% 0 5% 33%;}
+#flyer-box h1{font-size:16px;}
+.footer-txt{margin:0;padding:5%;width:90%;}
+}
+@media screen and (max-width:240px){.logo{width:93%;margin:5% 0 5% 7%;}
+.logo a{background:url(../images/ui-sprite.png) no-repeat 0-456px;}
+#inner-header h1{font-size:20px;}
+#inner-header h2{font-size:14px;}
+#main-form h1{font-size:22px;}
+.contact-text{width:93%;}
+#infographics ul li div{margin:0 0 15% 12%;}
+#infographics ul li h3{font-size:16px;}
+#infographics2 li div{float:none;margin-left:20%;}
+.testimonials li span{margin:10% 0 5% 26%;}
+#banner ul li.banner-ico{font-size:18px;padding:3% 0 6% 26%;}
+.submit-btn{padding:16px 20px;color:#fff;background:none #2376b0;font-size:16px;}
+#flogo{display:none;}
+}

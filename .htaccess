@@ -1,0 +1,26 @@
+ErrorDocument 404 /payday-loan.html 
+
+# Block Russian Referrer Spam
+RewriteEngine on
+RewriteCond %{HTTP_REFERER} ^http://.*ilovevitaly\.com/ [NC,OR]
+RewriteCond %{HTTP_REFERER} ^http://.*ilovevitaly.\.ru/ [NC,OR]
+RewriteCond %{HTTP_REFERER} ^http://.*ilovevitaly\.org/ [NC,OR]
+RewriteCond %{HTTP_REFERER} ^http://.*ilovevitaly\.info/ [NC,OR]
+RewriteCond %{HTTP_REFERER} ^http://.*iloveitaly\.ru/ [NC,OR]
+RewriteCond %{HTTP_REFERER} ^http://.*econom\.co/ [NC,OR]
+RewriteCond %{HTTP_REFERER} ^http://.*savetubevideo\.com/ [NC,OR]
+RewriteCond %{HTTP_REFERER} ^http://.*kambasoft\.com/ [NC,OR]
+RewriteCond %{HTTP_REFERER} ^http://.*buttons\-for\-website\.com/ [NC,OR]
+RewriteCond %{HTTP_REFERER} ^http://.*semalt\.com/ [NC,OR]
+RewriteCond %{HTTP_REFERER} ^http://.*rank\-checker\.online/ [NC,OR]
+RewriteCond %{HTTP_REFERER} ^http://.*keywords\-monitoring\-your\-success\.com/ [NC,OR]
+RewriteCond %{HTTP_REFERER} ^http://.*monetizationking\.net/ [NC,OR]
+RewriteCond %{HTTP_REFERER} ^http://.*uptime\.com/ [NC,OR]
+RewriteCond %{HTTP_REFERER} ^http://.*cookie\-law\-enforcement\-ee\.xyz/ [NC,OR]
+RewriteCond %{HTTP_REFERER} ^http://.*m-google\.xyz/ [NC,OR]
+RewriteCond %{HTTP_REFERER} ^http://.*free-video-tool\.com/ [NC,OR]
+RewriteCond %{HTTP_REFERER} ^http://.*fix\-website\-errors\.com/ [NC,OR]
+RewriteCond %{HTTP_REFERER} ^http://.*law\-enforcement\-bot\-bb\.xyz/ [NC,OR]
+RewriteCond %{HTTP_REFERER} ^http://.*fix\-website\-errors\.com/ [NC,OR]
+RewriteCond %{HTTP_REFERER} ^http://.*darodar\.com/ [NC]
+RewriteRule ^(.*)$ – [F,L]

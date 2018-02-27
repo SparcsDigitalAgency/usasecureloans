@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+Disallow: /terms.html
+Disallow: /privacy.html
+Disallow: /disclaimer.html
+Disallow: /lending-policy.html
+Disallow: /rates.html
+Disallow: /definitions.html
