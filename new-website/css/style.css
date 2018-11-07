@@ -610,9 +610,7 @@
 .section2 .box .box-icon {
     display: inline-block;
     width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    margin-bottom: 25px;
+    margin-bottom: 0px;
     position: relative;
 }
 
@@ -875,7 +873,7 @@ footer p { font-size:13px; color:#CCC; padding-bottom:0px; margin-bottom:8px;}
   font-size: 3em;
 }
 
-.faq_section_1,.rates_section_1,.terms_section_1,.privacy_section_1,.contact_section_1,.blog_section_1{
+.faq_section_1,.rates_section_1,.terms_section_1,.privacy_section_1,.contact_section_1,.blog_section_1,.form_page{
   padding: 150px 0px 50px;
 }
 .prime-th{
