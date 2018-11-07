@@ -609,22 +609,11 @@
 
 .section2 .box .box-icon {
     display: inline-block;
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
     margin-bottom: 25px;
     position: relative;
-}
-
-.section2 .box .box-icon:before {
-    content: "";
-    background: #517dbb;
-    border-radius: 50%;
-    position: absolute;
-    top: -10px;
-    left: -10px;
-    bottom: -10px;
-    right: -10px;
 }
 
 .section2 .box .box-icon img {
@@ -633,7 +622,6 @@
     padding: 10px;
     border-radius: 50%;
     background: #fff;
-    box-shadow: -5px 5px 5px rgba(0,0,0,0.5);
     font-size: 35px;
     position: absolute;
     top: 0%;
