@@ -1,91 +1,19 @@
-<!doctype html>
-<html class="no-js" lang="zxx">
+<!-- header -->
+<?php 
 
-<head>
-    <meta charset="utf-8">
-    <meta name="author" content="John Doe">
-    <meta name="description" content="">
-    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Title -->
-    <title>FAQ</title>
-    <!-- Place favicon.ico in the root directory -->
-    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-    <link rel="shortcut icon" type="image/ico" href="images/favicon.ico" />
-    <!-- Plugin-CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/themify-icons.css">
-    <link rel="stylesheet" href="css/magnific-popup.css">
-    <link rel="stylesheet" href="css/animate.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/ionicons/css/ionicons.min.css">
-    <!-- Main-Stylesheets -->
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/responsive.css">
-    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
-        <!--Vendor-JS-->
-    <script src="js/vendor/jquery-1.12.4.min.js"></script>
-    <script src="js/vendor/bootstrap.min.js"></script>
-    <!--Plugin-JS-->
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/contact-form.js"></script>
-    <script src="js/jquery.parallax-1.1.3.js"></script>
-    <script src="js/scrollUp.min.js"></script>
-    <script src="js/magnific-popup.min.js"></script>
-    <script src="js/wow.min.js"></script>
-    <!--Main-active-JS-->
-    <script src="js/main.js"></script>
+   $meta_tags=array(
+         'title'        => 'USA Secure Loans ',
+      'description'  => '',
+      'keywords'=>'',
+      "no-index" => true,
+      'no-follow' =>true,
+      'no-archieve' =>true,
 
-    <!--[if lt IE 9]>
-        <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-        <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-</head>
+   );
 
-<body data-spy="scroll" data-target="#primary-menu">
+include_once('partials/header.php')
 
-    <div class="preloader">
-        <div class="sk-folding-cube">
-            <div class="sk-cube1 sk-cube"></div>
-            <div class="sk-cube2 sk-cube"></div>
-            <div class="sk-cube4 sk-cube"></div>
-            <div class="sk-cube3 sk-cube"></div>
-        </div>
-    </div>
-    <!--Mainmenu-area-->
-    <div class="mainmenu-area" data-spy="affix" data-offset-top="100">
-        <div class="container">
-            <!--Logo-->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#primary-menu">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a href="index.html" class="navbar-brand logo">
-                    <img src="images/logo.png">
-                </a>
-            </div>
-            <!--Logo/-->
-            <nav class="collapse navbar-collapse" id="primary-menu">
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="index.html">HOME</a></li>
-                    <li class="active"><a href="faq.html">FAQ'S</a></li>
-                    <li><a href="rates.html">RATES</a></li>
-                    <li><a href="terms.html">TERMS</a></li>
-                    <li><a href="privacy.html">PRIVACY</a></li>
-                    <li><a href="contact.html">CONTACT</a></li>
-                    <li><a href="blog.html">BLOG</a></li>
-                </ul>
-            </nav>
-        </div>
-    </div>
-    <!--Mainmenu-area/-->
-
-
+?>
 
     <!--Header-area-->
     <header class="header-area overlay full-height relative v-center low-height-header" id="home-page">
@@ -220,7 +148,7 @@
                             <p class="terms">
                             <input type="checkbox" name="consent" id="consent" onchange="if(jQuery(this).is(':checked')){jQuery('#consent_title').removeClass('error');}">
                             <span id="consent_title">
-                             By submitting your information, you acknowledge you have read, understand, and agree to the terms of our <a href="privacy.html" target="_blank">Privacy Policy</a> and <a href="disclaimer.html" target="_blank">Disclaimer</a>.</span>
+                             By submitting your information, you acknowledge you have read, understand, and agree to the terms of our <a href="<?php echo $path; ?>privacy.php" target="_blank">Privacy Policy</a> and <a href="<?php echo $path; ?>terms.php" target="_blank">Disclaimer</a>.</span>
                             </p>
                           </div>
                           <div class="form-group">
@@ -228,10 +156,10 @@
                           </div>
                           <div class="sec-ico">
                             <div>
-                                <img src="images/protected.png" alt="Antivirus Safe"><span><strong>ANTIVIRUS </strong>Safe</span>
+                                <img src="<?php echo $path; ?>images/protected.png" alt="Antivirus Safe"><span><strong>ANTIVIRUS </strong>Safe</span>
                             </div>
                             <div>
-                                <img src="images/locked.png" alt="256 Bit Secure"><span><strong>256 bit</strong>Secure</span>
+                                <img src="<?php echo $path; ?>images/locked.png" alt="256 Bit Secure"><span><strong>256 bit</strong>Secure</span>
                             </div>
                           </div>
                         </form>
@@ -242,85 +170,5 @@
         </div>
         
     </section>
-    
-    
-
-
-        <footer class="footer">
-        <div class="container bottom_border">
-        <div class="row">
-        <div class=" col-sm-4 col-md-3 col-sm-4  col-12 col">
-        <!-- <h5 class="headin5_amrc col_white_amrc pt2">Find us</h5>
-        headin5_amrc
-        
-        <p><i class="fa fa-location-arrow"></i> 9878/25 sec 9 rohini 35 </p>
-        <p><i class="fa fa-phone"></i>  +91-9999878398  </p>
-        <p><i class="fa fa fa-envelope"></i> info@example.com  </p> -->
-        <img src="images/logo-white.png" class="white-logo">
-        <p class="mb10">Here at USASecureLoans.com, We connect you with one of several lenders in our network who can provide you with access to the emergency funds you need, regardless of the reason. We can help you find loans of up to $1,000 without any Hassle.</p>
-
-        </div>
-
-
-        <div class=" col-sm-4 col-md-3  col-6 col">
-        <h5 class="headin5_amrc col_white_amrc pt2">Quick links</h5>
-        <!--headin5_amrc-->
-        <ul class="footer_ul_amrc">
-        <li><a href="">Marketing Practices</a></li>
-        <li><a href="">How It Works?</a></li>
-        <li><a href="">Blog</a></li>
-        <li><a href="">Contact</a></li>
-        </ul>
-        <!--footer_ul_amrc ends here-->
-        </div>
-
-
-        <div class=" col-sm-4 col-md-3  col-6 col">
-        <h5 class="headin5_amrc col_white_amrc pt2">Information links</h5>
-        <!--headin5_amrc-->
-        <ul class="footer_ul_amrc">
-        <li><a href="">Rates & Fess</a></li>
-        <li><a href="">Terms & Conditions</a></li>
-        <li><a href="">Privacy Policy</a></li>
-        <li><a href="">FAQ's</a></li>
-        </ul>
-        <!--footer_ul_amrc ends here-->
-        </div>
-
-
-        <div class=" col-sm-4 col-md-3 col-12 col">
-        <h5 class="headin5_amrc col_white_amrc pt2">Follow us</h5>
-        <!--headin5_amrc ends here-->
-
-        <ul class="footer_ul2_amrc">
-            <li>
-                <button type="button" class="btn btn-sm btn-fb " style="margin-bottom: 10px;"><i class="fab fa-facebook-f pr-1"></i> Facebook</button>
-            </li>
-            <li>
-                <button type="button" class="btn btn-sm btn-tw "><i class="fab fa-facebook-f pr-1"></i> Twitter</button>
-            </li>
-        
-        </ul>
-        <!--footer_ul2_amrc ends here-->
-        </div>
-        </div>
-        </div>
-
-
-        <div class="container">
-        <ul class="foote_bottom_ul_amrc">
-        <li><a href="http://kalarikendramdelhi.com">Home</a></li>
-        <li><a href="http://kalarikendramdelhi.com">Blog</a></li>
-        <li><a href="http://kalarikendramdelhi.com">Contact</a></li>
-        </ul>
-        <!--foote_bottom_ul_amrc ends here-->
-        <p class="text-center">2014 © Copyright USASecureLoans.com</a></p>
-
-        </footer>
-
-
-
-
-</body>
-
-</html>
+  
+  <?php include_once('partials/footer.php')?>
