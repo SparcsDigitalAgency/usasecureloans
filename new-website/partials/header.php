@@ -67,7 +67,7 @@ include_once('config.php')
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a href="index.html" class="navbar-brand logo">
+                <a href="index.php" class="navbar-brand logo">
                     <img src="<?php echo $path; ?>images/logo.png">
                 </a>
             </div>

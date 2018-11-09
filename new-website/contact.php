@@ -35,11 +35,12 @@ include_once('partials/header.php')
             <div class="row">
                 <div class="col-lg-8">
                     <div class="container-contact1">
-                        <form class="contact1-form validate-form">
+                        <form class="contact1-form validate-form" name="phpformmailer" action="contact_process.php" method="post">
                             <h2 class="contact1-form-title text-center">Get In Touch</h2>
 
                             <div class="wrap-input1 validate-input" data-validate="Name is required">
-                                <input class="input1" type="text" name="name" placeholder="Name">
+                                <input class="input1" type="text"  name="name" placeholder="Name">
+                                <input type="hidden" name="block_spam_bots" value="1">
                                 <span class="shadow-input1"></span>
                             </div>
 
@@ -49,17 +50,17 @@ include_once('partials/header.php')
                             </div>
 
                             <div class="wrap-input1 validate-input" data-validate="Subject is required">
-                                <input class="input1" type="text" name="subject" placeholder="Subject">
+                                <input class="input1" type="text" name="thesubject" placeholder="Subject">
                                 <span class="shadow-input1"></span>
                             </div>
 
                             <div class="wrap-input1 validate-input" data-validate="Message is required">
-                                <textarea class="input1" name="message" placeholder="Message"></textarea>
+                                <textarea class="input1" name="themessage" placeholder="Message"></textarea>
                                 <span class="shadow-input1"></span>
                             </div>
 
                             <div class="container-contact1-form-btn">
-                                <button class="contact1-form-btn">
+                                <button class="contact1-form-btn" type="button" value="Send" name="B1" ONCLICK="javascript:validatecontactForm()">
                                     <span>
                                         Send Message
                                         <i class="fas fa-arrow-right"></i>
@@ -69,51 +70,7 @@ include_once('partials/header.php')
                         </form>
                     </div>
                 </div>
-                <div class="col-lg-4">
-                    <div class="hand-mockup text-lg-left text-center wow fadeInRight">
-                        <form action="#" class="bg-white us-form">
-                          <h2 class="mb-4 mt-0 text-center">Get Started</h2>
-                          <div class="form-group">
-                            <div class="pb_select-wrap">
-                              <select class="form-control pb_height-50 reverse">
-                                <option value="" selected="">Select Loan Amount</option>
-                                <option value="">$100</option>
-                                <option value="">$200</option>
-                                <option value="">$300</option>
-                              </select>
-                            </div>
-                          </div>
-                          <div class="form-group">
-                            <input type="text" class="form-control pb_height-50 reverse" placeholder="First name">
-                          </div>
-                          <div class="form-group">
-                            <input type="text" class="form-control pb_height-50 reverse" placeholder="Email">
-                          </div>
-                          <div class="form-group">
-                            <input type="text" class="form-control pb_height-50 reverse" placeholder="Zip">
-                          </div>
-                          <div>
-                            <p class="terms">
-                            <input type="checkbox" name="consent" id="consent" onchange="if(jQuery(this).is(':checked')){jQuery('#consent_title').removeClass('error');}">
-                            <span id="consent_title">
-                             By submitting your information, you acknowledge you have read, understand, and agree to the terms of our <a href="<?php echo $path; ?>privacy.php" target="_blank">Privacy Policy</a> and <a href="<?php echo $path; ?>terms.php" target="_blank">Disclaimer</a>.</span>
-                            </p>
-                          </div>
-                          <div class="form-group">
-                            <input type="submit" class="btn btn-primary btn-md btn-block pb_btn-pill  btn-shadow-blue" value="Get Your Cash">
-                          </div>
-                          <div class="sec-ico">
-                            <div>
-                                <img src="<?php echo $path; ?>images/protected.png" alt="Antivirus Safe"><span><strong>ANTIVIRUS </strong>Safe</span>
-                            </div>
-                            <div>
-                                <img src="<?php echo $path; ?>images/locked.png" alt="256 Bit Secure"><span><strong>256 bit</strong>Secure</span>
-                            </div>
-                          </div>
-                        </form>
-                        
-                    </div>
-                </div>
+                <?php include_once('partials/form-section.php')?>
             </div>
         </div>
         

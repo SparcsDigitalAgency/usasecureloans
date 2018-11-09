@@ -24,51 +24,7 @@ include_once('partials/header.php')
                     <p class="wow fadeInLeft">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero ex inventore vel error quibusdam animi fugiat, doloribus dolores consectetur nulla deleniti sint blanditiis quod debitis quis vitae officiis tempora numquam.</p>
                     <a href="<?php echo $path; ?>form.php" class="button white wow fadeInLeft">Get Started</a>
                 </div>
-                <div class="col-lg-4 text-right" style="margin-left: auto;">
-                    <div class="hand-mockup text-lg-left text-center wow fadeInRight">
-                        <form action="#" class="bg-white us-form">
-                          <h2 class="mb-4 mt-0 text-center">Get Started</h2>
-                          <div class="form-group">
-                            <div class="pb_select-wrap">
-                              <select class="form-control pb_height-50 reverse">
-                                <option value="" selected="">Select Loan Amount</option>
-                                <option value="">$100</option>
-                                <option value="">$200</option>
-                                <option value="">$300</option>
-                              </select>
-                            </div>
-                          </div>
-                          <div class="form-group">
-                            <input type="text" class="form-control pb_height-50 reverse" placeholder="First name">
-                          </div>
-                          <div class="form-group">
-                            <input type="text" class="form-control pb_height-50 reverse" placeholder="Email">
-                          </div>
-                          <div class="form-group">
-                            <input type="text" class="form-control pb_height-50 reverse" placeholder="Zip">
-                          </div>
-                          <div>
-                            <p class="terms">
-                            <input type="checkbox" name="consent" id="consent" onchange="if(jQuery(this).is(':checked')){jQuery('#consent_title').removeClass('error');}">
-                            <span id="consent_title">
-                             By submitting your information, you acknowledge you have read, understand, and agree to the terms of our <a href="<?php echo $path; ?>privacy.php" target="_blank" style="color: #444">Privacy Policy</a> and <a href="<?php echo $path; ?>terms.php" target="_blank" style="color: #444">Disclaimer</a>.</span>
-                            </p>
-                          </div>
-                          <div class="form-group">
-                            <input type="submit" class="btn btn-primary btn-md btn-block pb_btn-pill  btn-shadow-blue" value="Get Your Cash">
-                          </div>
-                          <div class="sec-ico">
-                            <div>
-                                <img src="<?php echo $path; ?>images/protected.png" alt="Antivirus Safe"><span><strong>ANTIVIRUS </strong>Safe</span>
-                            </div>
-                            <div>
-                                <img src="<?php echo $path; ?>images/locked.png" alt="256 Bit Secure"><span><strong>256 bit</strong>Secure</span>
-                            </div>
-                          </div>
-                        </form>
-                        
-                    </div>
-                </div>
+                <?php include_once('partials/form-section.php')?>
             </div>
         </div>
     </header>
