@@ -36,7 +36,7 @@
                             <p class="terms">
                             <input type="checkbox" name="consent" id="consent" onchange="if(jQuery(this).is(':checked')){jQuery('#consent_title').removeClass('error');}">
                             <span id="consent_title">
-                             By submitting your information, you acknowledge you have read, understand, and agree to the terms of our <a href="<?php echo $path; ?>privacy.php" target="_blank">Privacy Policy</a> and <a href="<?php echo $path; ?>terms.php" target="_blank">Disclaimer</a>.</span>
+                             By submitting your information, you acknowledge you have read, understand, and agree to the terms of our <a href="<?php echo $path; ?>privacy" target="_blank">Privacy Policy</a> and <a href="<?php echo $path; ?>terms" target="_blank">Disclaimer</a>.</span>
                             </p>
                           </div>
                           <div class="form-group">

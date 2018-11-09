@@ -14,7 +14,7 @@ include_once('config.php')
 <meta name="description" content="<?php echo $meta_tags['description']; ?>">
 <meta property="og:title" content="USA Secure Loans."/>
 <meta property="og:type" content="company"/>
-<meta property="og:url" content="http://www.usasecureloans.com"/>
+<meta property="og:url" content="https://www.usasecureloans.com"/>
 <meta property="og:image" content=""/>
 <meta property="og:site_name" content="usasecureloans"/>
 <meta property="fb:admins" content="1301551246"/>
@@ -34,7 +34,7 @@ include_once('config.php')
     <link rel="stylesheet" href="<?php echo $path; ?>css/animate.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
     <link rel="stylesheet" href="<?php echo $path; ?>css/ionicons/css/ionicons.min.css">
-    <link href="http://fonts.googleapis.com/css?family=Poppins:300,400,400i,500,600,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,400i,500,600,700" rel="stylesheet" type="text/css">
     <!-- Main-Stylesheets -->
     <link rel="stylesheet" href="<?php echo $path; ?>css/normalize.css">
     <link rel="stylesheet" href="<?php echo $path; ?>css/style.css">
@@ -67,20 +67,20 @@ include_once('config.php')
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a href="index.php" class="navbar-brand logo">
+                <a href="<?php echo $path; ?>" class="navbar-brand logo">
                     <img src="<?php echo $path; ?>images/logo.png">
                 </a>
             </div>
             <!--Logo/-->
             <nav class="collapse navbar-collapse" id="primary-menu">
                 <ul class="nav navbar-nav navbar-right">
-                    <li <?php echo (preg_match("/index.php/",$_SERVER['SCRIPT_FILENAME']) ? 'class="active"': '');?>><a href="index.php">HOME</a></li>
-                    <li <?php echo (preg_match("/faq.php/",$_SERVER['SCRIPT_FILENAME']) ? 'class="active"': '');?>><a href="faq.php">FAQ'S</a></li>
-                    <li <?php echo (preg_match("/rates.php/",$_SERVER['SCRIPT_FILENAME']) ? 'class="active"': '');?>><a href="rates.php">RATES</a></li>
-                    <li <?php echo (preg_match("/terms.php/",$_SERVER['SCRIPT_FILENAME']) ? 'class="active"': '');?>><a href="terms.php">TERMS</a></li>
-                    <li <?php echo (preg_match("/privacy.php/",$_SERVER['SCRIPT_FILENAME']) ? 'class="active"': '');?>><a href="privacy.php">PRIVACY</a></li>
-                    <li <?php echo (preg_match("/contact.php/",$_SERVER['SCRIPT_FILENAME']) ? 'class="active"': '');?>><a href="contact.php">CONTACT</a></li>
-                    <li <?php echo (preg_match("/blog/",$_SERVER['SCRIPT_FILENAME']) ? 'class="active"': '');?>><a href="blog.php">BLOG</a></li>
+                    <li <?php echo (preg_match("/index.php/",$_SERVER['SCRIPT_FILENAME']) ? 'class="active"': '');?>><a href="<?php echo $path; ?>">HOME</a></li>
+                    <li <?php echo (preg_match("/faq.php/",$_SERVER['SCRIPT_FILENAME']) ? 'class="active"': '');?>><a href="<?php echo $path; ?>faq">FAQ'S</a></li>
+                    <li <?php echo (preg_match("/rates.php/",$_SERVER['SCRIPT_FILENAME']) ? 'class="active"': '');?>><a href="<?php echo $path; ?>rates">RATES</a></li>
+                    <li <?php echo (preg_match("/terms.php/",$_SERVER['SCRIPT_FILENAME']) ? 'class="active"': '');?>><a href="<?php echo $path; ?>terms">TERMS</a></li>
+                    <li <?php echo (preg_match("/privacy.php/",$_SERVER['SCRIPT_FILENAME']) ? 'class="active"': '');?>><a href="<?php echo $path; ?>privacy">PRIVACY</a></li>
+                    <li <?php echo (preg_match("/contact.php/",$_SERVER['SCRIPT_FILENAME']) ? 'class="active"': '');?>><a href="<?php echo $path; ?>contact">CONTACT</a></li>
+                    <li <?php echo (preg_match("/blog/",$_SERVER['SCRIPT_FILENAME']) ? 'class="active"': '');?>><a href="<?php echo $path; ?>blog">BLOG</a></li>
                 </ul>
             </nav>
         </div>

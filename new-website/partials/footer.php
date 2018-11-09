@@ -50,9 +50,9 @@
    </div>
    <div class="container">
    <ul class="foote_bottom_ul_amrc">
-      <li><a href="http://kalarikendramdelhi.com">Home</a></li>
-      <li><a href="http://kalarikendramdelhi.com">Blog</a></li>
-      <li><a href="http://kalarikendramdelhi.com">Contact</a></li>
+      <li><a href="<?php echo $path; ?>index">Home</a></li>
+      <li><a href="<?php echo $path; ?>blog"">Blog</a></li>
+      <li><a href="<?php echo $path; ?>contact"">Contact</a></li>
    </ul>
    <!--foote_bottom_ul_amrc ends here-->
    <p class="text-center">2014 © Copyright USASecureLoans.com</a></p>
