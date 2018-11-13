@@ -9,13 +9,14 @@ $form = isset($_POST['value']) ? $_POST['value'] : '';
 $privacy = isset($_POST['value']) ? $_POST['value'] : '';
 $rates = isset($_POST['value']) ? $_POST['value'] : '';
 $terms = isset($_POST['value']) ? $_POST['value'] : '';
-
+$contact_me = isset($_POST['value']) ? $_POST['value'] : '';
 $site = isset($_POST['value']) ? $_POST['value'] : '';
 	
 	$path = ($path) ?: 'http://localhost//git/usasecureloans/new-website/';
 	//$http = ($_SERVER['HTTP_X_FORWARDED_PROTO'] == 'https' || ($_SERVER['HTTPS'] && $_SERVER['HTTPS'] != 'off')) ? 'https' : 'http';
 	$index = ($index) ? $index : (($path == './') && preg_match("/index.php/",$_SERVER['SCRIPT_FILENAME']));
 	$contact =  (preg_match("/contact.php/",$_SERVER['SCRIPT_FILENAME']));
+	$contact_me =  (preg_match("/contact_me.php/",$_SERVER['SCRIPT_FILENAME']));
 	$faq =  (preg_match("/faq.php/",$_SERVER['SCRIPT_FILENAME']));
 	$form =  (preg_match("/form.php/",$_SERVER['SCRIPT_FILENAME']));
 	$privacy = (preg_match("/privacy.php/", $_SERVER['SCRIPT_FILENAME']));

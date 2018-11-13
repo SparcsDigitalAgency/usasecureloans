@@ -181,6 +181,10 @@ function validateForm()
  }
 }
 // --></script>
+
+
+
+
 <script src="<?php echo $path; ?>js/vendor/jquery-1.12.4.min.js"></script>
 <script src="<?php echo $path; ?>js/vendor/bootstrap.min.js"></script>
 <!--Plugin-JS-->
@@ -192,5 +196,88 @@ function validateForm()
 <script src="<?php echo $path; ?>js/wow.min.js"></script>
 <!--Main-active-JS-->
 <script src="<?php echo $path; ?>js/main.js"></script>
+
+<?php if ($contact): ?> 
+   <script type="text/javascript">
+$(document).ready(function() {
+    $("#submit_btn").click(function() { 
+
+
+        //get input field values
+        var subject         = $('input[name=subject]').val(); 
+        var user_name       = $('input[name=name]').val(); 
+        var user_email      = $('input[name=email]').val();
+        var user_message    = $('textarea[name=message]').val();
+        
+        //simple validation at client's end
+        //we simply change border color to red if empty field using .css()
+
+       
+
+        var proceed = true;
+        if(user_name==""){ 
+            $('input[name=name]').css('border-color','red'); 
+            proceed = false;
+        }
+         if(subject==""){ 
+            $('input[name=subject]').css('border-color','red'); 
+            proceed = false;
+        }
+        if(user_email==""){ 
+            $('input[name=email]').css('border-color','red'); 
+            proceed = false;
+        }
+        if(user_message=="") {  
+            $('textarea[name=message]').css('border-color','red'); 
+            proceed = false;
+        }
+
+        //everything looks good! proceed...
+        if(proceed) 
+        {
+            //data to be sent to server
+            post_data = {'subject':subject,'userName':user_name, 'userEmail':user_email, 'userMessage':user_message};
+            
+         //Ajax loading gif
+         $("#dvloader").show();
+         
+            //Ajax post data to server
+            $.post('contact_me', post_data, function(response){ 
+         
+         $("#dvloader").hide(); 
+
+                //load json data from server and output message     
+            if(response.type == 'error')
+            {
+               output = '<div class="error">'+response.text+'</div>';
+            }else{
+                output = '<div class="success">'+response.text+'</div>';
+               
+               //reset values in all input fields
+               $('#contact_form input').val(''); 
+               $('#contact_form textarea').val('');
+                     
+                    //window.location.replace("./thank-you");
+            }
+            
+            $("#result").hide().html(output).slideDown();
+
+            }, 'json');
+
+            
+         
+        }
+    });
+    
+    //reset previously set border colors and hide all message on .keyup()
+    $("#contact_form input, #contact_form textarea").keyup(function() { 
+        $("#contact_form input, #contact_form textarea").css('border-color',''); 
+        $("#result").slideUp();
+    });
+    return false;
+});
+</script> 
+<?php endif; ?>
+
 </body>
 </html>

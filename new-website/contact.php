@@ -35,37 +35,33 @@ include_once('partials/header.php')
             <div class="row">
                 <div class="col-lg-8">
                     <div class="container-contact1">
-                        <form class="contact1-form validate-form" name="phpformmailer" action="contact_process.php" method="post">
+                        <form class="contact1-form validate-form" id="contact_form" style="border:none;"  >
                             <h2 class="contact1-form-title text-center">Get In Touch</h2>
-
-                            <div class="wrap-input1 validate-input" data-validate="Name is required">
-                                <input class="input1" type="text"  name="name" placeholder="Name">
-                                <input type="hidden" name="block_spam_bots" value="1">
-                                <span class="shadow-input1"></span>
+                            <div id="result"></div>
+                            <div class="wrap-input1 validate-input">
+                                <input type="text" class="input1"  name="name" placeholder="Full Name" required>
                             </div>
 
-                            <div class="wrap-input1 validate-input" data-validate="Valid email is required: ex@abc.xyz">
-                                <input class="input1" type="text" name="email" placeholder="Email">
-                                <span class="shadow-input1"></span>
+                            <div class="wrap-input1 validate-input">
+                                <input type="text" class="input1"  name="email" placeholder="Email Address" required>
                             </div>
 
                             <div class="wrap-input1 validate-input" data-validate="Subject is required">
-                                <input class="input1" type="text" name="thesubject" placeholder="Subject">
-                                <span class="shadow-input1"></span>
+                                <input type="text" class="input1"  name="subject" placeholder="Subject" required>
                             </div>
 
                             <div class="wrap-input1 validate-input" data-validate="Message is required">
-                                <textarea class="input1" name="themessage" placeholder="Message"></textarea>
-                                <span class="shadow-input1"></span>
+                                <textarea class="input1" name="message"  placeholder="Ok, Let's Talk" maxlength="140" rows="7"></textarea>
                             </div>
 
                             <div class="container-contact1-form-btn">
-                                <button class="contact1-form-btn" type="button" value="Send" name="B1" ONCLICK="javascript:validatecontactForm()">
+                                <button class="contact1-form-btn" type="button" id="submit_btn" >
                                     <span>
                                         Send Message
                                         <i class="fas fa-arrow-right"></i>
                                     </span>
                                 </button>
+                                <div style="display:none; float:left; margin:5px;" id="dvloader"><img src="images/ajax-loader.gif" /></div>
                             </div>
                         </form>
                     </div>

@@ -954,11 +954,10 @@ footer p { font-size:13px; color:#CCC; padding-bottom:0px; margin-bottom:8px;}
     font-size: 15px;
     line-height: 1.5;
     color: #666666;
-    border: none;
+    border: 1px #e6e6e6 solid;
 }
 input {
     outline: none;
-    border: none;
 }
 input.input1 + .shadow-input1 {
     border-radius: 25px;
@@ -1273,3 +1272,5 @@ button {
 .head{
     padding-top: 8%;
 }
+.success{background:#CFFFF5;padding:10px;margin-bottom:10px;border:1px solid #B9ECCE;border-radius:5px;font-weight:normal;color:#000;}
+.error{background:#FFDFDF;padding:10px;margin-bottom:10px;border:1px solid #FFCACA;border-radius:5px;font-weight:normal; color:#000;}
