@@ -55,7 +55,8 @@
       <li><a href="<?php echo $path; ?>contact">Contact</a></li>
    </ul>
    <!--foote_bottom_ul_amrc ends here-->
-   <p class="text-center">2014 © Copyright USASecureLoans.com</a></p>
+   <p class="text-center">2014 © Copyright USASecureLoans.com</p>
+ </div>
 </footer>
 <!--Vendor-JS-->
 <script type="text/javascript">
