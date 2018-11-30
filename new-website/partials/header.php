@@ -24,8 +24,7 @@ include_once('config.php')
     <meta name="robots" content="noarchive">
 <?php endif; ?>
     <!-- Place favicon.ico in the root directory -->
-    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-    <link rel="shortcut icon" type="image/ico" href="images/favicon.ico" />
+    <link rel="shortcut icon" href="<?php echo $path;?>images/usl.ico">
     <!-- Plugin-CSS -->
     <link rel="stylesheet" href="<?php echo $path; ?>css/bootstrap.min.css">
     <link rel="stylesheet" href="<?php echo $path; ?>css/owl.carousel.min.css">

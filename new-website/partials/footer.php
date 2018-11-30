@@ -15,10 +15,10 @@
             <h5 class="headin5_amrc col_white_amrc pt2">Quick links</h5>
             <!--headin5_amrc-->
             <ul class="footer_ul_amrc">
-               <li><a href="">Marketing Practices</a></li>
-               <li><a href="">How It Works?</a></li>
-               <li><a href="">Blog</a></li>
-               <li><a href="">Contact</a></li>
+               <li><a href="<?php echo $path; ?>marketing-practices">Marketing Practices</a></li>
+               <li><a href="<?php echo $path; ?>how-it-works">How It Works?</a></li>
+               <li><a href="<?php echo $path; ?>blog">Blog</a></li>
+               <li><a href="<?php echo $path; ?>contact">Contact</a></li>
             </ul>
             <!--footer_ul_amrc ends here-->
          </div>
@@ -26,10 +26,10 @@
             <h5 class="headin5_amrc col_white_amrc pt2">Information links</h5>
             <!--headin5_amrc-->
             <ul class="footer_ul_amrc">
-               <li><a href="">Rates & Fess</a></li>
-               <li><a href="">Terms & Conditions</a></li>
-               <li><a href="">Privacy Policy</a></li>
-               <li><a href="">FAQ's</a></li>
+               <li><a href="<?php echo $path; ?>rates">Rates & Fess</a></li>
+               <li><a href="<?php echo $path; ?>terms">Terms & Conditions</a></li>
+               <li><a href="<?php echo $path; ?>privacy">Privacy Policy</a></li>
+               <li><a href="<?php echo $path; ?>faq">FAQ's</a></li>
             </ul>
             <!--footer_ul_amrc ends here-->
          </div>
@@ -52,7 +52,7 @@
    <ul class="foote_bottom_ul_amrc">
       <li><a href="<?php echo $path; ?>index">Home</a></li>
       <li><a href="<?php echo $path; ?>blog"">Blog</a></li>
-      <li><a href="<?php echo $path; ?>contact"">Contact</a></li>
+      <li><a href="<?php echo $path; ?>contact">Contact</a></li>
    </ul>
    <!--foote_bottom_ul_amrc ends here-->
    <p class="text-center">2014 © Copyright USASecureLoans.com</a></p>

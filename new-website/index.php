@@ -22,7 +22,7 @@ include_once('partials/header.php')
                 <div class="col-xs-12 col-md-7 header-text">
                     <h2 class="wow fadeInLeft">Get lender approval<br> as soon as tomorrow </h2>
                     <p class="wow fadeInLeft">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero ex inventore vel error quibusdam animi fugiat, doloribus dolores consectetur nulla deleniti sint blanditiis quod debitis quis vitae officiis tempora numquam.</p>
-                    <a href="<?php echo $path; ?>form.php" class="button white wow fadeInLeft">Get Started</a>
+                    <a href="<?php echo $path; ?>paydayloan" class="button white wow fadeInLeft">Get Started</a>
                 </div>
                 <?php include_once('partials/form-section.php')?>
             </div>

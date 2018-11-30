@@ -1,6 +1,6 @@
 <div class="col-lg-4" style="margin-left: auto;">
                     <div class="hand-mockup text-lg-left text-center wow fadeInRight">
-                        <form class="bg-white us-form" action="https://www.usasecureloans.com/payday-loan.html" method="get" name="ShortForm">
+                        <form class="bg-white us-form" action="<?php echo $path; ?>paydayloan" method="get" name="ShortForm">
                           <h2 class="mb-4 mt-0 text-center">Get Started</h2>
                           <div class="form-group">
                             <div class="pb_select-wrap">
@@ -40,7 +40,8 @@
                             </p>
                           </div>
                           <div class="form-group">
-                            <input type="submit" value="Get Your Cash" ONCLICK="javascript:validateForm()" class="btn btn-primary btn-md btn-block pb_btn-pill  btn-shadow-blue" value="Get Your Cash">
+                            <input type="button" value="Get Your Cash" ONCLICK="javascript:validateForm()" class="btn btn-primary btn-md btn-block pb_btn-pill  btn-shadow-blue" value="Get Your Cash">
+                            
                           </div>
                           <div class="sec-ico">
                             <div>
