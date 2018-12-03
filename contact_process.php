@@ -118,7 +118,7 @@ function main_page_form_submit(){
 */
 
 // ------- three variables you MUST change below  -------------------------------------------------------
-$replyemail="admin@USASecureLoans.com"; //change to your email address
+$replyemail="admin@usasecureloans.com"; //change to your email address
 $valid_ref1="https://www.usasecureloans.com/contact.html"; //chamge to your domain name
 $valid_ref2="https://www.usasecureloans.com/contact.html"; //chamge to your domain name
 
