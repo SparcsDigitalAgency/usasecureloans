@@ -41,5 +41,5 @@ include_once('partials/header.php')
         </div>
         
     </section>
-  
+<?php include_once('partials/notice.php')?>
   <?php include_once('partials/footer.php')?>

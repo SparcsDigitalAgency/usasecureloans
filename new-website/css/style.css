@@ -491,7 +491,7 @@ font-size: 16px;
     .us-form {
       padding: 30px; } }
 .img-responsive{
-  width: 100px;
+  width: 100%;
 }
 .bg-white{
   background-color: #fff;
@@ -1279,4 +1279,24 @@ button {
 }
 #consent_title a {
     color: #517dbb;
+}
+.us-form .btn{
+    font-size: 18px;
+}
+            .img-responsive{
+                width: 100%;
+            }
+            .customer-notice-wrap {
+    margin: 0 auto;
+}
+.section5{
+        padding: 50px 0px;
+    background: #eaeaea;
+}
+.notice{
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
 }

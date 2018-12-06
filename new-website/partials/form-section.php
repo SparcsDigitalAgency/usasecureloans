@@ -40,7 +40,10 @@
                             </p>
                           </div>
                           <div class="form-group">
-                            <input type="button" value="Get Your Cash" ONCLICK="javascript:validateForm()" class="btn btn-primary btn-md btn-block pb_btn-pill  btn-shadow-blue" value="Get Your Cash">
+                            <span class="btn btn-primary btn-md btn-block pb_btn-pill  btn-shadow-blue">
+                                 <input type="button" class="btn btn-primary" value="Get Your Cash" ONCLICK="javascript:validateForm()"  value="Get Your Cash"><i class="fas fa-user-lock"></i>
+                            </span>
+                            
                             
                           </div>
                           <div class="sec-ico">
